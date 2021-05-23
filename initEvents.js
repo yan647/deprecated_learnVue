@@ -23,7 +23,7 @@ export function updateComponentListeners(vm, listeners, oldListeners) {
 }
 
 export function updateListeners(on, oldOn, add, remove, vm) {
-
+    //todo
 }
 
 export function initEvents(vm) {
