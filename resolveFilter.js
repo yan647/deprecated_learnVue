@@ -3,3 +3,8 @@
  */
 
 'use strict';
+
+import {identity,resolveAsset} from 'core/util/index';
+export function resolveFilter(id) {
+    return resolveAsset(this.$options,'filters',id,true) || identity;
+}
